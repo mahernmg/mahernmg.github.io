@@ -1,0 +1,84 @@
+body.cke_editable {
+  margin: 0 20px 0 20px;
+  padding: 0;
+  border-left: 1px dashed #ccc;
+  border-right: 1px dashed #ccc;
+}
+
+body .cke_inner {
+  background: white url('/images/checkered_pattern.png') repeat !important;
+}
+
+.cke .cke_button__removeformat .cke_button_label {
+  display: none;
+}
+
+.cke .cke_combopanel__fontsize {
+  width: 130px;
+}
+
+textarea.cke_source {
+  box-sizing: border-box;
+}
+
+.cke_editable.cke_show_borders table.cke_show_border {
+  border: #ccc 1px dotted;
+}
+
+.cke_editable.cke_editable_inline.cke_contents_ltr.cke_show_borders.cke_focus,
+a.simple-inline-editor:focus,
+span.simple-inline-editor:focus {
+  box-shadow: inset 0px 0px 0px 1px rgba(79, 145, 251, 0.7);
+  outline: none;
+}
+
+/*
+  Floating image margins
+*/
+.custom_component img[style*="float:left"],
+.custom_component img[style*="float: left"],
+.blog_component img[style*="float:left"],
+.blog_component img[style*="float: left"],
+body.cke_editable img[style*="float:left"],
+body.cke_editable img[style*="float: left"] {
+  margin: 0 20px 20px 0;
+}
+
+.custom_component img[style*="float:right"],
+.custom_component img[style*="float: right"],
+.blog_component img[style*="float:right"],
+.blog_component img[style*="float: right"],
+body.cke_editable img[style*="float:right"],
+body.cke_editable img[style*="float: right"] {
+  margin: 0 0 20px 20px;
+}
+
+/*
+ UI Buttons
+*/
+body a.cke_dialog_ui_button {
+  color: #fff;
+}
+body a.cke_dialog_ui_button span {
+  text-shadow: none;
+}
+body a.cke_dialog_ui_button_ok {
+  border-color: #0f9d50;
+  background-color: #0f9d50;
+  background-image: none;
+}
+body a.cke_dialog_ui_button_ok:hover {
+  border-color: #0c7e40;
+  background-color: #0c7e40;
+  background-image: none;
+}
+body a.cke_dialog_ui_button_cancel {
+  border:1px solid #dd4444 ;
+  background-color: #dd4444 ;
+  background-image: none;
+}
+body a.cke_dialog_ui_button_cancel:hover {
+  background-color: #b33737;
+  border:1px solid #b33737;
+  background-image: none;
+}
